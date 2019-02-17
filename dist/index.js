@@ -328,7 +328,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 			vn.elm.textContent = bind.value.substring(0,bind.arg)
 			var read_more = document.createElement('a');
 	    read_more.href = '#';
-	    read_more.text = 'read more';
+	    read_more.text = 'read';
 
 	    var read_less = document.createElement('a');
 	    read_less.href = '#';
