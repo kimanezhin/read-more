@@ -6,7 +6,6 @@
   "scripts": {
     "build:base": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules",
     "build:ssr": "cross-env NODE_ENV=production webpack --config webpack.config.ssr.js --progress --hide-modules",
-    "prepare": "npm run build",
     "build": "npm run build:base && npm run build:ssr"
   },
   "repository": {
