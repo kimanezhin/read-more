@@ -343,10 +343,11 @@
            
             read_more.innerText = 'read more';
             read_more.style.width = "85px";
+            read_more.style.fontWeight = "500";
             read_more.style.color = "#42648b";
             read_more.style.opacity = "0.8"
             var read_less = document.createElement('div');
-
+            read_less.style.fontWeight = "500";
             read_less.innerText = 'read less';
             read_less.style.width = "85px";
             read_less.style.color = "#42648b";
